@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #1b1b1b;
+    background: #f4f4f4;
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+header,
+h1,
+footer {
+    text-align: center;
+}
+
+main img {
+    width: 100%;
+    
+}
+
+section {
+    margin-block: 4rem;
+}
+
+h1 {
+    color: #3480bb;
+    font-size: 5.75rem;
+    line-height: 1;
+}
+
+h2 {
+    color: #cb721c;
+}
+
+footer {
+    background: #22466c;
+    padding-block: .25em;
+    padding-inline: .75em;
+    border: solid 3px #6E84CF;
+    color: #fff;
+}
