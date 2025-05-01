@@ -39,7 +39,7 @@ section {
 }
 
 h1 {
-    color: #3480bb;
+    /* color: #3480bb; */
     font-size: 5rem;
     line-height: 1;
 }
@@ -48,13 +48,15 @@ h2 {
     color: #cb721c;
 }
 
-footer {
-    background: #22466c;
-    padding-block: .25em;
-    padding-inline: .75em;
-    border: solid 3px #6E84CF;
-    color: #fff;
+a {
+    color: #2B930B;
 }
+
+a:hover,
+a:focus-visible {
+    color: #a7f094;
+}
+
 
 /* Getting started title */
 
@@ -65,3 +67,29 @@ h1.title {
 ol {
     margin-block-end: 3rem;
 }
+
+.color-offset {
+    background: #087a98;
+    color: #f4f4f4;
+    border: 3px solid #0b4a5a;
+    padding: .75rem 2rem;
+}
+
+.color-offset strong{
+    color: #FFF;
+}
+
+
+.text-offset {
+    color: #087a98;
+}
+
+.climber-bg {
+    color: #fff;
+    background: url(../images/simple-steps.jpg) no-repeat center;
+    background-size: cover;
+
+    padding: 1.75rem;
+   
+}
+
