@@ -40,7 +40,7 @@ section {
 
 h1 {
     color: #3480bb;
-    font-size: 5.75rem;
+    font-size: 5rem;
     line-height: 1;
 }
 
@@ -54,4 +54,14 @@ footer {
     padding-inline: .75em;
     border: solid 3px #6E84CF;
     color: #fff;
+}
+
+/* Getting started title */
+
+h1.title {
+    font-size: 3.75rem;
+}
+
+ol {
+    margin-block-end: 3rem;
 }
