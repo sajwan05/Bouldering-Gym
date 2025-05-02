@@ -10,7 +10,6 @@ html {
 
 html,body {
     width: 100%;
-    height: 100%;
 }
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -18,20 +17,45 @@ body {
     line-height: 1.5;
     color: #1b1b1b;
     background: #f4f4f4;
-    width: 85%;
-    margin: 0 auto;
+    /* width: 85%;
+    margin: 0 auto; */
 }
 
 
-header,
 h1,
-footer {
+footer{
     text-align: center;
 }
 
-main img {
-    width: 100%;
-    
+/*             NAVIGATION                  */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary-navigation ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ /* header img {
+    /* margin-right: auto; */
+/* }  */
+
+
+nav ul a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+/*           IMAGES           */
+
+img {
+    max-inline-size: 100%;
+    display: block;
 }
 
 section {
@@ -57,6 +81,41 @@ a:focus-visible {
     color: #a7f094;
 }
 
+/* ul li::marker {
+    content : '🎈';
+} */
+
+/*       LAYOUT                 */
+.wrapper {
+    max-inline-size: 80%;
+    margin-inline: auto;
+}
+
+.two-column-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-block-end: 3rem;
+}
+
+/* .two-column-layout {
+    display: flex;
+    gap: 2rem; 
+}
+
+.two-column-layout div {
+    flex: 1;
+} */
+
+/* .flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.flex-container div {
+    flex: 1;
+} */
 
 /* Getting started title */
 
